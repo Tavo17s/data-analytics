@@ -21,7 +21,7 @@ const Navbar = () => {
                 {!toggle ? <AiOutlineClose size={30} className='mr-4' /> : <AiOutlineMenu size={30} className='mr-4' />}
             </div>
 
-            <div className={!toggle ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-black ease-in-out duration-500' : 'fixed left-[-100%]'}>
+            <div className={!toggle ? 'fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-black-gradient ease-in-out duration-500' : 'fixed left-[-100%]'}>
                 <h1 className='w-full text-3xl font-bold text-[#00DFC0] m-4'>
                     React.
                 </h1>
